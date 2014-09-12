@@ -21,6 +21,7 @@
 		474C17D419C27D5F00522C18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474C17B619C27D5F00522C18 /* UIKit.framework */; };
 		474C17DC19C27D5F00522C18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 474C17DA19C27D5F00522C18 /* InfoPlist.strings */; };
 		474C17DE19C27D5F00522C18 /* GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474C17DD19C27D5F00522C18 /* GitTests.m */; };
+		474C17E919C2808900522C18 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 474C17E819C2808900522C18 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		474C17D919C27D5F00522C18 /* GitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTests-Info.plist"; sourceTree = "<group>"; };
 		474C17DB19C27D5F00522C18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		474C17DD19C27D5F00522C18 /* GitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTests.m; sourceTree = "<group>"; };
+		474C17E719C2808900522C18 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = ../Test.h; sourceTree = "<group>"; };
+		474C17E819C2808900522C18 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = ../Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				474C17C419C27D5F00522C18 /* Main.storyboard */,
 				474C17C719C27D5F00522C18 /* ViewController.h */,
 				474C17C819C27D5F00522C18 /* ViewController.m */,
+				474C17E719C2808900522C18 /* Test.h */,
+				474C17E819C2808900522C18 /* Test.m */,
 				474C17CA19C27D5F00522C18 /* Images.xcassets */,
 				474C17B919C27D5F00522C18 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				474C17C919C27D5F00522C18 /* ViewController.m in Sources */,
+				474C17E919C2808900522C18 /* Test.m in Sources */,
 				474C17C319C27D5F00522C18 /* AppDelegate.m in Sources */,
 				474C17BF19C27D5F00522C18 /* main.m in Sources */,
 			);
